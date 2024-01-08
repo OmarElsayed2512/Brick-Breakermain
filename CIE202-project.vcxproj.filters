@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CMUgraphicsLib\auxil.cpp">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\image.cpp">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jcomapi.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jcparam.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdapimin.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdapistd.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdatasrc.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdcoefct.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdcolor.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jddctmgr.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdhuff.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdinput.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmainct.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmarker.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmaster.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmerge.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdphuff.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdpostct.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdsample.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdtrans.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jerror.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctflt.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctfst.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctint.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctred.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jmemmgr.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jmemnobs.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpegload.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jquant1.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jquant2.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jutils.c">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\keyqueue.cpp">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\mousequeue.cpp">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\windowinput.cpp">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\CMUgraphics.cpp">
+      <Filter>GraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Bricks.cpp">
+      <Filter>Collidable Classes\Bricks Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="drawable.cpp">
+      <Filter>Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="toolbar.cpp">
+      <Filter>toolbar and icons</Filter>
+    </ClCompile>
+    <ClCompile Include="collidable.cpp">
+      <Filter>Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Collidable Classes\Paddle Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Collidable Classes\Ball Class</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Grid Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>Collidable Classes\Collectable Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMUgraphicsLib\auxil.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\error.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\image.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jconfig.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jdct.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jdhuff.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jerror.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jinclude.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jmemsys.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jmorecfg.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jpegint.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jpeglib.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpegload.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jversion.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\keyqueue.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\mousequeue.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\version.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\windowinput.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\CMUgraphics.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\colors.h">
+      <Filter>GraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Bricks.h">
+      <Filter>Collidable Classes\Bricks Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="drawable.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="toolbar.h">
+      <Filter>toolbar and icons</Filter>
+    </ClInclude>
+    <ClInclude Include="collidable.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Collidable Classes\Paddle Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Collidable Classes\Ball Class</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="gameConfig.h">
+      <Filter>Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Grid Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>Collidable Classes\Collectable Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base Classes">
+      <UniqueIdentifier>{d251e1f2-a008-489d-840e-1bc9fe7fd145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsLib">
+      <UniqueIdentifier>{c076192c-7f4c-49d2-a595-55ff119d3ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="toolbar and icons">
+      <UniqueIdentifier>{5f727420-cd1d-483b-8541-bd342f07e6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collidable Classes">
+      <UniqueIdentifier>{0cd063e2-9fb2-4d62-b9be-b2d8fb1889ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collidable Classes\Paddle Class">
+      <UniqueIdentifier>{a193f9ed-ac7d-4119-b7ff-fdadea8a7307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collidable Classes\Bricks Classes">
+      <UniqueIdentifier>{5e150dff-8a89-44f3-b58a-731df9cea925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collidable Classes\Ball Class">
+      <UniqueIdentifier>{f0450bec-1469-40cb-a9c6-ced5ddb4ecab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Classes">
+      <UniqueIdentifier>{0564a7a3-773c-4eca-b700-636c1f994373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid Class">
+      <UniqueIdentifier>{baccb6e1-9d83-407d-a7d2-925f9f57ddd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collidable Classes\Collectable Classes">
+      <UniqueIdentifier>{caa201c6-ed0a-400a-8c81-e44351560084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
